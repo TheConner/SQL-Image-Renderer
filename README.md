@@ -1,6 +1,6 @@
 # SQL Image Renderer
 
-Rendering bitmap images using postgres. This is dumb, but I wanted to see if I could render images with a stored procedure.
+Rendering bitmap images using postgres. This is dumb, but I wanted to see if I could render images with a user-defined function.
 
 ## Usage
 
