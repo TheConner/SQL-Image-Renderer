@@ -67,6 +67,11 @@ FROM new_img,
 COMMIT;
 ```
 
+Produces
+
+![Gradient rainbow](./assets/rainbow_gradient.bmp)
+
+## Radial Grayscale
 
 
 ```sql
@@ -92,6 +97,11 @@ FROM new_img,
 
 COMMIT;
 ```
+
+Produces
+
+![Radial grayscale](./assets/radial_grayscale.bmp)
+
 ### Sunset over sea
 
 ```sql
@@ -147,3 +157,7 @@ DO UPDATE SET r = EXCLUDED.r,
 
 COMMIT;
 ```
+
+Produces
+
+![Sunset over a sea](./assets/sunset_over_sea.bmp)
